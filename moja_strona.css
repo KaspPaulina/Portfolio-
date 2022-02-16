@@ -1,0 +1,232 @@
+body
+{/* Background pattern from https://www.toptal.com/ */
+background-image: url("img/watercolor.png");
+color: black;
+font-size: 20px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#container
+
+{
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+.rectangle
+{
+text-align: center;
+margin: 20px;
+width: 960px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+
+#logo
+{
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+		
+		/* Add the blur effect */
+ filter: blur(0.6px);
+  -webkit-filter: blur(0.6px);
+}
+
+.table
+{
+
+	float: left;
+	width: 50%;
+	
+	
+}
+
+.box1
+{
+	width:490px;
+	height: 230px;
+	border: 2px dotted coral;
+	border-radius: 30px;
+	background-color: hsla(17, 80%, 60%, 0.2);
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+.box1:hover
+
+{
+	background-color: #e8c5a5;
+}
+
+
+
+.box2
+{
+	width:500px;
+	height: 250px;
+	background-color: hsla(0, 100%, 30%, 0.1);
+	border-radius: 15px;
+	margin: 10px;
+	
+	
+}
+
+.box3
+
+{
+	width: 500px;
+	height: 250px;
+	background-color: hsla(0, 100%, 80%, 0.3);
+	border-radius: 7px;
+	
+	 
+}
+
+.box4
+
+{
+	width: 500px;
+	height: 250px;
+	background-color: hsla(0, 80%, 50%, 0.2);
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+	text-align: center;
+	
+	
+	
+}
+
+.box5
+
+{
+width: 500px;
+height: 250px;
+background-color: hsla(0, 100%, 90%, 0.3);
+font-size: 20px;
+font-weight: bold;
+box-shadow: inset 0 0 20px 10px white;
+padding-left: 15px;
+
+}
+.dot 
+{
+  height: 8px;
+  width: 8px;
+  background-color:  black;
+  opacity: 0.7;
+  border-radius: 50%;
+  margin: 5px;
+  display: block;
+  
+}
+
+p
+
+
+{
+	font-size: 20px;
+	
+
+}
+
+h2
+{
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+#obraz1
+
+{
+	width:230px;
+	height: 150px;
+	margin-left: 15px;
+	margin-right: 5px;
+	background-color: white;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	
+	
+}
+
+#obraz2
+
+{
+	width:230px;
+	height: 150px;
+	margin-right: 15px;
+	margin-left: 5px;
+	background-color: black;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.yt
+
+{
+	float:left;
+	
+}
+
+.tw
+
+{
+	float:left;
+	
+}
+
+.fb
+
+{
+	float:left;
+}
+
+button 
+{
+  transition-duration: 0.4s;
+  background-color: #f3e9f5;
+  width: 480px;
+  height: 35px;
+ 
+
+}
+
+button:hover 
+{
+  background-color: pink;
+  color: white;
+}
+
+
+#button1:hover:before {content:"Miejski Ośrodek Pomocy Rodzinie w Gdańsku"}
+#button2:hover:before {content:"Wakacje.pl"}
+#button3:hover:before {content:"Akademia Muzyczna im. Stanisława Moniuszki w Gdańsku"}
+#button4:hover:before {content:"Southwestern Advantage, USA"}
+#button5:hover:before {content:"Sklep spożywczo-monopolowy 'Livio'"}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}

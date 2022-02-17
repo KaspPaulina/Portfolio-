@@ -230,7 +230,7 @@ button:hover
 a:link 
 {
   text-decoration: none;
-	color: black;
+	color: transparent;
 }
 
 a:visited 
